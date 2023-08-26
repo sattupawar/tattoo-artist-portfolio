@@ -1,0 +1,478 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+main {
+  width: 97%;
+  margin: 0 auto;
+}
+/* header css */
+
+.header {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.navigation a {
+  font-family: "Roboto Condensed", sans-serif;
+  text-decoration: none;
+  margin-right: 40px;
+  color: black;
+  font-weight: 600;
+}
+.navigation {
+  margin: 0 auto;
+}
+
+.social-icons a {
+  margin-right: 30px;
+  justify-content: right;
+}
+/* header css end */
+
+.first img {
+  width: 100%;
+}
+.body {
+  width: 90%;
+  margin: 0 auto;
+}
+.first {
+  position: relative;
+}
+.tatto-text {
+  position: absolute;
+  bottom: 0;
+}
+.title {
+  position: absolute;
+  color: white;
+  width: 550px;
+  top: 33%;
+  right: 13%;
+  height: 300px;
+}
+.title h1 {
+  font-size: 100px;
+  margin-bottom: 15px;
+}
+.title p {
+  margin-bottom: 70px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.title a {
+  background: transparent;
+  color: white;
+  border: none;
+  border: 1px solid white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-family: "Roboto Condensed", sans-serif;
+}
+/* first css end */
+.secound .first-div h1 {
+  font-size: 500px;
+  text-align: left;
+  text-align: right;
+}
+.secound {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+}
+.secound .secound-div {
+  font-family: "Roboto Condensed", sans-serif;
+  width: 50%;
+}
+.secound .secound-div h1 {
+  margin-top: 14rem;
+  font-size: 70px;
+  width: 200px;
+  margin-bottom: 40px;
+}
+.secound .secound-div p {
+  margin-left: 7rem;
+  line-height: 30px;
+}
+
+.secound .first-div {
+  width: 50%;
+}
+.secound .secound-div a {
+  margin-left: 7rem;
+  font-weight: bolder;
+  /* margin-top: 2rem; */
+  margin-right: 7px;
+}
+
+.secound .secound-div .last-p {
+  margin-bottom: 2rem;
+}
+/* body css end */
+
+/* stat third css */
+
+.third {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  /* height: 100%; */
+  background: #f9f9f9;
+  margin-top: 2.5rem;
+}
+.third h1 {
+  width: 300px;
+  font-size: 50px;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-left: 20%;
+  /* margin-top: 3rem; */
+  padding-top: 6rem;
+}
+
+/* image contianer */
+.image-container {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.image-container img {
+  /* width: 100%; */
+  /* height: 100%; */
+  border-radius: 20px;
+  object-fit: cover;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.first-col {
+  height: 100%;
+}
+.image-container .first-image {
+  width: 400px;
+  height: 400px;
+}
+.image-container .sec-image {
+  width: 400px;
+  height: 600px;
+}
+.viewAll a {
+  text-align: center;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  text-decoration: none;
+  padding: 15px 35px;
+  margin: 20px;
+}
+.viewAll {
+  margin-top: 4rem;
+  text-align: center;
+  padding-bottom: 7rem;
+}
+/* third css complete */
+
+/* fourth css start */
+
+.fourth {
+  width: 90%;
+  justify-content: center;
+  margin: 0 auto;
+}
+.fourth h1 {
+  border: 1px solid rgb(122, 119, 119);
+  border-radius: 50%;
+  width: 200px;
+  text-align: center;
+  padding: 65px 45px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 3rem;
+}
+.round-section {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 10rem;
+}
+.round-section .round p {
+  margin-top: 2rem;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.fourth-text {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+.fourth-text .first-text {
+  padding-top: 7rem;
+  margin-left: 13rem;
+  /* font-size: 1.6rem; */
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-weight: 200; */
+  /* color: rgb(46, 44, 44); */
+}
+.fourth-text .first-text p {
+  padding: 0 20px;
+  line-height: 2.5rem;
+  font-weight: 200;
+  color: rgb(46, 44, 44);
+  font-size: 1.6rem;
+}
+.secound-text {
+  display: flex;
+  margin-left: 13rem;
+  padding: 0 20px;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.secound-text .rightpart {
+  padding-right: 5rem;
+}
+.secound-text .leftpart b {
+  font-size: 1.3rem;
+  margin-right: 10px;
+}
+.secound-text .leftpart span {
+  font-size: 1.3rem;
+  margin-left: 10px;
+}
+.secound-text .leftpart em {
+  font-size: 1.5rem;
+}
+/* fourth section css is end */
+
+/* fifth sectino css start */
+
+.fifth-section {
+  margin-top: 8rem;
+  position: relative;
+}
+.fifth-section .fifth-wallpaper {
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+}
+.fifth-section .fifth-wallpaper img {
+  filter: brightness(70%);
+  filter: grayscale(100%);
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  justify-content: center;
+}
+.fifth-title {
+  position: absolute;
+  top: 30%;
+  right: 6%;
+  color: white;
+}
+.fifth-title h1 {
+  font-size: 3rem;
+  width: 900px;
+}
+.fifth-title svg {
+  margin-top: 3rem;
+}
+/* fifth  section css compelete */
+
+/* six section css start */
+
+.sixth-section {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+.six-main {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+.six-main img {
+  width: 350px;
+  height: 260px;
+  border-radius: 20px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.six-main p {
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;
+
+  font-weight: 400;
+}
+.six-title-text {
+  margin-left: 20px;
+}
+.six-main small {
+  font-size: 17px;
+  color: grey;
+  font-family: "Roboto Condensed", sans-serif;
+}
+/* six section css complete */
+
+/* seven section css start */
+
+.seven-section {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 8rem;
+  margin-bottom: 7rem;
+}
+.seven-main {
+  /* display: flex; */
+  width: 80%;
+  margin: 0 auto;
+  /* justify-content: space-between; */
+  /* background-color: grey; */
+  /* padding-top: 2rem; */
+  justify-content: center;
+  padding-left: 9rem;
+}
+.seven-main-left {
+  display: flex;
+}
+.seven-main-left-left-icon {
+  display: flex;
+}
+
+.seven-main-left-left {
+  width: 300px;
+}
+.seven-main-left-right {
+  width: 300px;
+}
+.seven-main h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;
+  width: 30%;
+  margin-bottom: 2rem;
+  /* margin-left: 10rem; */
+}
+.seven-main-main {
+  display: flex;
+  line-height: 1.5rem;
+  align-items: center;
+}
+.seven-main-main h3 {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.seven-main-main p {
+  margin-bottom: 0.7rem;
+  /* margin-left: .5rem; */
+  align-items: center;
+}
+.seven-main-left-left-icon svg {
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  margin-top: 3px;
+}
+.seven-main-left-left-icon p {
+  align-items: center;
+  display: flex;
+  margin-left: 0.4rem;
+}
+
+.seven-main-left a {
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  border-bottom: 1px solid black;
+  font-weight: 500;
+  margin-bottom: 1px;
+  padding-bottom: 4px;
+}
+
+/* seven right css main */
+.seven-main-right {
+  margin-left: 3rem;
+  padding-bottom: 4rem;
+}
+.seven-main-right input {
+  appearance: none;
+  text-align: none;
+  border: none;
+  font-size: 1.4rem;
+  width: 500px;
+  border-bottom: 2px solid black;
+  margin-bottom: 1.6rem;
+  padding: 13px;
+  font-style: italic;
+}
+.seven-main-right button {
+  padding: 12px 38px;
+  background-color: black;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+}
+.seven-main-right input:focus {
+  appearance: none;
+  text-decoration: none;
+  border: none;
+}
+
+/* sevencss complete */
+
+footer {
+  /* margin-top: 10rem; */
+  width: 90%;
+  margin: 0 auto;
+  /* background-color: #141414; */
+  font-family: "Roboto Condensed", sans-serif;
+  justify-content: center;
+  background-color: rgb(173, 162, 162);
+
+  /* color:gre; */
+}
+
+.footer-first-div {
+  margin-left: 4rem;
+}
+.text-container {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: 4rem;
+  /* border: 1px solid black; */
+  margin: 0 auto;
+  padding-top: 7rem;
+  margin-bottom: 5rem;
+ 
+}
+.footer-container{
+    width: 200px;
+}
+.footer-secound-div 
+{
+padding: 20px;
+margin-left: 8rem;
+}
+.footer-secound-div p{
+    margin-left: 14rem;
+}
